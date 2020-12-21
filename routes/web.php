@@ -12,6 +12,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/', function () {
-    return view('welcome');
-});
+use App\Http\Controllers\MenuController;
+Route::get('/beranda', [MenuController::class, 'Home']);
+Route::get('/blog', [MenuController::class, 'MyBlog']);
+Route::get('/testimoni', [MenuController::class, 'testimoni']);
