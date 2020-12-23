@@ -39,6 +39,9 @@
                         <li>
                             <a href="{{ url('/info-kegiatan') }}" class="nav-link">Info Kegiatan</a>
                         </li>
+                        <li>
+                            <a href="{{ url('/siswa') }}" class="nav-link">CRUD Data Siswa</a>
+                        </li>
 
                     </ul>
 
