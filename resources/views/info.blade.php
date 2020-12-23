@@ -32,7 +32,7 @@
 
 @section('content')
 <h3>Info Kegiatan</h3>
-<p>Informasi Kegiatan SIswa Bulan Ini:</p>
+<p>Informasi Kegiatan Siswa Bulan Ini:</p>
 <ul>
     <li>10 Agustus - Masa Orientasi Siswa</li>
     <li>17 Agustus - Upaara Kemerdekaan RI</li>
