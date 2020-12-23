@@ -31,12 +31,24 @@
 @extends('layouts.app')
 
 @section('content')
-  <div class="jumbotron text-center">
-    <h1>Portal Informasi Siswa</h1>
-    <p>Selamat Datang Di Portal Informasi Siswa SMA 404</p>
-    <a href="#" class="btn btn-dark">Info Kegiatan</a>
-    <a href="#" class="btn btn-secondary">Data Siswa</a>
-  </div>
+  <h3>Data Siswa</h3>
+  <table class="table-bordered table=striped">
+    <tr>
+        <th>Nama</th>
+        <th>NIS</th>
+        <th>Tanggal Lahir</th>
+    </tr>
+    <tr>
+        <td>Andi Saputra</td>
+        <td>101</td>
+        <td>2000-10-10</td>
+    </tr>
+    <tr>
+        <td>Budi Cahya</td>
+        <td>102</td>
+        <td>2000-11-11</td>
+    </tr>
+</table>
 @endsection
 
 <script>
@@ -49,5 +61,3 @@
 </body>
 
 </html>
-
-

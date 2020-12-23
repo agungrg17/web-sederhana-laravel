@@ -31,12 +31,16 @@
 @extends('layouts.app')
 
 @section('content')
-  <div class="jumbotron text-center">
-    <h1>Portal Informasi Siswa</h1>
-    <p>Selamat Datang Di Portal Informasi Siswa SMA 404</p>
-    <a href="#" class="btn btn-dark">Info Kegiatan</a>
-    <a href="#" class="btn btn-secondary">Data Siswa</a>
-  </div>
+<h3>Info Kegiatan</h3>
+<p>Informasi Kegiatan SIswa Bulan Ini:</p>
+<ul>
+    <li>10 Agustus - Masa Orientasi Siswa</li>
+    <li>17 Agustus - Upaara Kemerdekaan RI</li>
+</ul>
+<p>Informasi Kegiatan Siswa Bulan Depan:</p>
+<ul>
+    <li>13 September - Ujian Tengah Semester</li>
+</ul>
 @endsection
 
 <script>

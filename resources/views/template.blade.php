@@ -28,16 +28,26 @@
 </head>
 
 <body>
-@extends('layouts.app')
+<nav class="navbar navbar-expand bg-dark">
+    <ul class="nav">
+      <li>
+        <a class="nav-link" href="{{ url('/beranda') }}">Home</a>
+      </li>
+      <li>
+        <a class="nav-link" href="{{ url('/data-siswa') }}">Data Siswa</a>
+      </li>
+      <li>
+        <a class="nav-link" href="{{ url('/info-kegiatan') }}">Info Kegiatan</a>
+      </li>
+    </ul>
+  </nav>
+  @yield('content')
 
-@section('content')
-  <div class="jumbotron text-center">
-    <h1>Portal Informasi Siswa</h1>
-    <p>Selamat Datang Di Portal Informasi Siswa SMA 404</p>
-    <a href="#" class="btn btn-dark">Info Kegiatan</a>
-    <a href="#" class="btn btn-secondary">Data Siswa</a>
-  </div>
-@endsection
+  <footer class="fixed-bottom bg-dark">
+    <div class="text-center">
+        (c) 2020 Copyright : SMA 404
+    </div>
+</footer>
 
 <script>
     $("#menu-toggle").click(function(e) {
@@ -49,5 +59,3 @@
 </body>
 
 </html>
-
-
