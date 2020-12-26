@@ -32,7 +32,7 @@
 
 @section('content')
   <h3>Data Siswa</h3>
-  <table class="table-bordered table=striped">
+  <table class="table-bordered table=striped justify-content-center">
     <tr>
         <th>Nama</th>
         <th>NIS</th>

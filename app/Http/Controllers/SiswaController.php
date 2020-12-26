@@ -14,8 +14,8 @@ class SiswaController extends Controller
      */
     public function index()
     {
-        $datasiswa = Siswa::all();
-        return view('index', ['siswa' => $datasiswa]);//
+        $siswa = Siswa::all();
+        return view('index', ['siswa' => $siswa]);//
     }
 
     /**
@@ -52,8 +52,8 @@ class SiswaController extends Controller
      */
     public function show($id)
     {
-        $siswa = Siswa::where('id', $id)->first();
-        return view('profil_siswa', ['siswa' => $siswa]);//
+        $datasiswa = Siswa::where('id', $id)->first();
+        return view('profil_siswa', ['siswa' => $datasiswa]);//
     }
 
     /**

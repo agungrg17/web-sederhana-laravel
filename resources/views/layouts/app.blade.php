@@ -34,7 +34,10 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
                         <li>
-                            <a href="{{ url('/siswa') }}" class="nav-link">Data Siswa</a>
+                            <a href="{{ url('/data-siswa') }}" class="nav-link">Tabel Data Siswa</a>
+                        </li>
+                        <li>
+                            <a href="{{ url('/siswa') }}" class="nav-link">Profil Data Siswa</a>
                         </li>
                         <li>
                             <a href="{{ url('/info-kegiatan') }}" class="nav-link">Info Kegiatan</a>
